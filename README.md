@@ -17,4 +17,9 @@ The table below is generated from `video-ideas.xlsx`. Don't edit between the mar
 ## Video ideas
 
 <!-- IDEAS:START -->
+1 idea: 1 riff pending.
+
+| id | Working title | Topic | Status | Script | Priority | Added | Take / notes |
+|---|---|---|---|---|---|---|---|
+| 001 | [Group projects](videos/01-group-projects.md) | School / everyday life | riff pending | none | 1 | 2026-10-23 | Bryson's topic: the general absurdity surrounding group projects. Avoid the stock jokes (one person does everything, the ghost, silent grou… |
 <!-- IDEAS:END -->
