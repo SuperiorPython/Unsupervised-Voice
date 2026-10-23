@@ -62,6 +62,10 @@ An Excel file, not a CSV, because a CSV can't hold dropdowns. Add ideas by typin
 - `my_take` and `best_moments` are in Bryson's own words, copied from the riff transcript.
 - `origin`: where the idea came from (own observation, something watched or played, a question, a conversation, other).
 - Git can't show line-by-line changes in an .xlsx. Commit it as a whole file.
+- **Adding ideas from GitHub:** GitHub can't open or edit an .xlsx. Instead, Issues -> New issue -> "Video idea" is a form with the same dropdowns. Submitting it runs `.github/workflows/add-video-idea.yml`, which appends the row to `video-ideas.xlsx`, commits it to main, and closes the issue. Only the repo owner's issues are accepted.
+- The form's dropdown options are a copy of the `Lists` sheet. If you change an option in one, change it in `.github/ISSUE_TEMPLATE/video-idea.yml` too. For status, riff_recorded, script_status and priority the workflow rejects a value that isn't on the `Lists` sheet.
+- The Action edits the same file you edit locally. Run `git pull` before editing `video-ideas.xlsx` on your computer, or the two copies will conflict (Git can't merge an .xlsx).
+- Existing rows can't be changed from GitHub, only added. Update a row's status in Excel.
 
 ## 9. Open items
 
