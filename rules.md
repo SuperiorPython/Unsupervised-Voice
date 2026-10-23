@@ -54,11 +54,14 @@ Not a full episode. Judge it on:
 
 Two videos of data can't judge a format, and a 60-second video can't test 8-minute pacing or audience demand. Treat the result as a signal.
 
-## 8. Video ideas CSV (`video-ideas.csv`)
+## 8. Video ideas tracker (`video-ideas.xlsx`)
+
+An Excel file, not a CSV, because a CSV can't hold dropdowns. Add ideas by typing in the next empty row; the id fills in by itself and the dropdowns are pre-set down to row 300. Options for each dropdown live on the `Lists` sheet. Don't insert or delete columns.
 
 - `status`: riff pending, riff recorded, scripting, recording, animating, rendered, published, parked.
 - `my_take` and `best_moments` are in Bryson's own words, copied from the riff transcript.
-- `origin`: where the idea came from (own observation, something watched or played, a question, etc.).
+- `origin`: where the idea came from (own observation, something watched or played, a question, a conversation, other).
+- Git can't show line-by-line changes in an .xlsx. Commit it as a whole file.
 
 ## 9. Open items
 
