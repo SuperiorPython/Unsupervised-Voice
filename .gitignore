@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+*.key
+secrets/
+
+# Rendered and large media (keep outside the repo, or use Git LFS later)
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.psd
+renders/
+media/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Needed by the mouth driver when a scene has no narration
+!pipeline/video/public/silence.mp3
