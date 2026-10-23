@@ -36,11 +36,14 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: python .github/scripts/add_video_idea.py
 
-      - name: Commit the tracker
+      - name: Refresh the README table
+        run: python scripts/render_readme.py
+
+      - name: Commit the tracker and README
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add video-ideas.xlsx
+          git add video-ideas.xlsx README.md
           git commit -m "Add video idea ${{ steps.add.outputs.id }} (from issue #${{ github.event.issue.number }})"
           git push
 

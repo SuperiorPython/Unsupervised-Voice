@@ -1,0 +1,45 @@
+name: Refresh README table
+
+# Runs when you push a change to the tracker yourself (for example after editing it in Excel).
+# Ideas added through the issue form refresh the README inside add-video-idea.yml instead,
+# because a push made by a workflow does not trigger other workflows.
+on:
+  push:
+    branches: [main]
+    paths:
+      - video-ideas.xlsx
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: video-ideas-tracker
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install openpyxl
+
+      - name: Rebuild the table
+        run: python scripts/render_readme.py
+
+      - name: Commit the README if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "README already up to date."
+          else
+            git commit -m "Update README idea table"
+            git push
+          fi

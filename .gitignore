@@ -28,3 +28,6 @@ Thumbs.db
 
 # Needed by the mouth driver when a scene has no narration
 !pipeline/video/public/silence.mp3
+
+# Excel lock files (present while the workbook is open)
+~$*

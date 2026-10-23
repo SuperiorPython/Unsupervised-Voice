@@ -1,0 +1,19 @@
+# Unsupervised Voice
+
+Animated commentary: Bryson riffs on a topic he cares about, and a red-and-black astronaut delivers it. Rules for how videos get made are in [rules.md](rules.md). The Remotion project is in `pipeline/video/`, and each video's script and notes go in `videos/`.
+
+## How this README is used
+
+Add a row to the table below when a new idea comes up, and update a row as the video moves along. You can edit this file directly on GitHub (pencil icon) or locally.
+
+- **Status:** riff pending, riff recorded, scripting, recording, animating, rendered, published, parked
+- **Script:** not started, outlined, drafted, final
+- **Priority:** 1 (next) to 3 (someday)
+- Keep the "take" in your own words, copied from your riff transcript.
+- Put long notes in the video's own file in `videos/` and link it from the row, so the table stays readable.
+
+## Video ideas
+
+| id | Working title | Topic | Status | Script | Priority | Added | Take / notes |
+|----|---------------|-------|--------|--------|----------|-------|--------------|
+| 001 | [Group projects](videos/01-group-projects.md) | School / everyday life | riff pending | not started | 1 | 2026-10-23 | The absurdity of group projects. Skip the stock jokes (one person does everything, the ghost, the silent group chat). Proof-of-concept candidate: one narrow bit, about 60 seconds. |
