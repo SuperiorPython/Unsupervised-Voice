@@ -24,7 +24,7 @@ const PO = (l: Arm, r: Arm, body: Partial<Body> = {}): Pose => ({ l, r, body: { 
 const POSES: Record<AstroPose, Pose> = {
   idle: PO(A(8, 0, 0, 0, -6), A(-8, 0, 0, 0, 6)),
   point: PO(A(14, 0, 0, 0, -22), A(-100, 10, -10, 0, -10)),
-  shrug: PO(A(35, -4, -14, 0, 125), A(-35, 4, -14, 0, -125), { drop: 4 }),
+  shrug: PO(A(55, -4, -6, 0, 50), A(-55, 4, -6, 0, -50), { drop: 4 }),
   hold: PO(A(-25, 0, 0, 0, -60), A(25, 0, 0, 0, 60)),
   wave: PO(A(8, 0, 0, 0, -6), A(-100, 0, -6, 0, -80, 22)),
   cheer: PO(A(145, -14, -10, 8, 15), A(-145, 14, -10, 8, -15), { lean: -2 }),
@@ -111,8 +111,13 @@ const Cube: React.FC<{ x: number; y: number; w: number; h: number; front?: strin
   </g>
 );
 
+// Optional clothing: recolours the arm and leg cubes (sleeves and trousers). cuff/cuffSide are the
+// band at the end of each sleeve; the trouser hem just uses the plain colours.
+export type Outfit = { front: string; top: string; side: string; cuff: string; cuffSide: string; shoe?: string; shoeSide?: string };
+const outfitCube = (o?: Outfit) => (o ? { front: o.front, top: o.top, side: o.side } : {});
+
 const UPPER = 88;
-const LimbArm: React.FC<{ x: number; y: number; arm: Arm; left?: boolean; bob: number; frame: number; ph: number }> = ({ x, y, arm, left, bob, frame, ph }) => {
+const LimbArm: React.FC<{ x: number; y: number; arm: Arm; left?: boolean; bob: number; frame: number; ph: number; outfit?: Outfit }> = ({ x, y, arm, left, bob, frame, ph, outfit }) => {
   const swing = arm.osc * Math.sin(frame / 3.2 + ph);
   const wag = arm.fosc * Math.sin(frame / 2.6 + ph);
   const bend = arm.bend + (left ? -wag : wag);
@@ -121,20 +126,20 @@ const LimbArm: React.FC<{ x: number; y: number; arm: Arm; left?: boolean; bob: n
     <g transform={`translate(${arm.dx},${arm.dy + bob}) rotate(${arm.rot + (left ? -swing : swing)} ${x + 31} ${y})`}>
       {/* forearm first, so the upper arm covers the joint */}
       <g transform={`rotate(${bend} ${x + 31} ${ey})`}>
-        <Cube x={x} y={ey} w={62} h={82} />
-        <rect x={x} y={ey + 40} width={62} height={42} fill={C.accent} stroke={C.edge} strokeWidth={3} />
-        <polygon points={`${x + 62},${ey + 40} ${x + 62 + D.x},${ey + 40 + D.y} ${x + 62 + D.x},${ey + 82 + D.y} ${x + 62},${ey + 82}`} fill={C.accentDark} stroke={C.edge} strokeWidth={3} />
+        <Cube x={x} y={ey} w={62} h={82} {...outfitCube(outfit)} />
+        <rect x={x} y={ey + 40} width={62} height={42} fill={outfit ? outfit.cuff : C.accent} stroke={C.edge} strokeWidth={3} />
+        <polygon points={`${x + 62},${ey + 40} ${x + 62 + D.x},${ey + 40 + D.y} ${x + 62 + D.x},${ey + 82 + D.y} ${x + 62},${ey + 82}`} fill={outfit ? outfit.cuffSide : C.accentDark} stroke={C.edge} strokeWidth={3} />
       </g>
-      <Cube x={x} y={y} w={62} h={UPPER} />
+      <Cube x={x} y={y} w={62} h={UPPER} {...outfitCube(outfit)} />
     </g>
   );
 };
 
-const Leg: React.FC<{ x: number; bob: number }> = ({ x, bob }) => (
+const Leg: React.FC<{ x: number; bob: number; outfit?: Outfit }> = ({ x, bob, outfit }) => (
   <g transform={`translate(0,${bob})`}>
-    <Cube x={x} y={122} w={70} h={150} />
-    <rect x={x} y={232} width={70} height={40} fill={C.accent} stroke={C.edge} strokeWidth={3} />
-    <polygon points={`${x + 70},${232} ${x + 70 + D.x},${232 + D.y} ${x + 70 + D.x},${272 + D.y} ${x + 70},${272}`} fill={C.accentDark} stroke={C.edge} strokeWidth={3} />
+    <Cube x={x} y={122} w={70} h={150} {...outfitCube(outfit)} />
+    <rect x={x} y={232} width={70} height={40} fill={outfit ? outfit.shoe ?? outfit.front : C.accent} stroke={C.edge} strokeWidth={3} />
+    <polygon points={`${x + 70},${232} ${x + 70 + D.x},${232 + D.y} ${x + 70 + D.x},${272 + D.y} ${x + 70},${272}`} fill={outfit ? outfit.shoeSide ?? outfit.side : C.accentDark} stroke={C.edge} strokeWidth={3} />
   </g>
 );
 
@@ -145,6 +150,10 @@ type Props = {
   cues?: Cue<AstroPose, AstroMood>[];
   audio?: string;
   audioStartFrame?: number;
+  // extra drawing in the astronaut's own coordinates, attached to the torso (moves with its bob)
+  torsoExtra?: React.ReactNode;
+  // sleeves and trousers
+  outfit?: Outfit;
 };
 
 const Glyph: React.FC<{ kind: "" | "!" | "?" | "spark" | "sweat" | "dots" | "anger"; t: number; frame: number }> = ({ kind, t, frame }) => {
@@ -197,7 +206,7 @@ const Glyph: React.FC<{ kind: "" | "!" | "?" | "spark" | "sweat" | "dots" | "ang
   );
 };
 
-export const Astronaut: React.FC<Props> = ({ x, y, size = 1, cues = [], audio, audioStartFrame = 0 }) => {
+export const Astronaut: React.FC<Props> = ({ x, y, size = 1, cues = [], audio, audioStartFrame = 0, torsoExtra, outfit }) => {
   const d = useDriver<AstroPose, AstroMood>(cues, "idle", "neutral", audio, audioStartFrame);
   const { frame, open } = d;
   // a touch of overshoot when a pose or mood changes, so moves feel springy
@@ -244,12 +253,12 @@ export const Astronaut: React.FC<Props> = ({ x, y, size = 1, cues = [], audio, a
   );
 
   return (
-    <svg width={900} height={900} viewBox="-450 -330 900 900" style={{ position: "absolute", left: x - 450 * size, top: y - 330 * size, transform: `scale(${size})`, transformOrigin: "450px 330px", overflow: "visible" }}>
+    <svg width={900} height={900} viewBox="-450 -330 900 900" style={{ position: "absolute", left: x - 450, top: y - 330, transform: `scale(${size})`, transformOrigin: "450px 330px", overflow: "visible" }}>
       <ellipse cx={10} cy={318} rx={150 - Math.abs(bob) * 1.5} ry={18} fill="#000" opacity={0.28} />
       <g transform={`rotate(${lean} 0 280)`}>
         {/* legs and torso */}
-        <Leg x={-78} bob={limbBob(1)} />
-        <Leg x={8} bob={limbBob(2)} />
+        <Leg x={-78} bob={limbBob(1)} outfit={outfit} />
+        <Leg x={8} bob={limbBob(2)} outfit={outfit} />
         <g transform={`translate(0,${bob + talkBounce + pose.body.drop})`}>
           <Cube x={-75} y={-98} w={150} h={190} />
           <rect x={-48} y={-66} width={96} height={66} rx={6} fill={C.accentDark} stroke={C.edge} strokeWidth={3} />
@@ -258,6 +267,7 @@ export const Astronaut: React.FC<Props> = ({ x, y, size = 1, cues = [], audio, a
           <rect x={18} y={-56} width={20} height={14} fill={C.accent} />
           <rect x={-38} y={-34} width={76} height={8} fill={C.accent} opacity={0.7} />
           <rect x={-75} y={60} width={150} height={14} fill={C.accent} stroke={C.edge} strokeWidth={3} />
+          {torsoExtra}
         </g>
         {/* helmet */}
         <g transform={`translate(${m.headDx},${(bob + talkBounce) * 1.2 + pose.body.drop}) rotate(${headRot} 0 -110)`}>
@@ -290,20 +300,20 @@ export const Astronaut: React.FC<Props> = ({ x, y, size = 1, cues = [], audio, a
               <rect x={-20} y={barY} width={40} height={7} />
               <rect x={-28} y={barY - corner} width={8} height={7} />
               <rect x={20} y={barY - corner} width={8} height={7} />
-            </g>
-          )}
           {/* glass: faint tint, edge and a highlight */}
           <rect x={vx} y={vy} width={vw} height={vh} rx={18} fill={C.accent} opacity={0.1} />
           <rect x={vx} y={vy} width={vw} height={vh} rx={18} fill="none" stroke={C.accentLight} strokeWidth={4} opacity={0.9} />
           <polygon points={`${vx + 14},${vy + 8} ${vx + 52},${vy + 8} ${vx + 26},${vy + vh - 12} ${vx + 8},${vy + vh - 12}`} fill="#fff" opacity={0.18} />
+            </g>
+          )}
           {/* collar */}
           <rect x={-95} y={-138} width={190} height={28} fill={C.accent} stroke={C.edge} strokeWidth={3} />
           <polygon points={`95,-138 ${95 + D.x},${-138 + D.y} ${95 + D.x},${-110 + D.y} 95,-110`} fill={C.accentDark} stroke={C.edge} strokeWidth={3} />
           <Glyph kind={GLYPH[d.moodTo]} t={mt} frame={frame} />
         </g>
         {/* arms are drawn last so a hand can rest on the chin or cover the visor */}
-        <LimbArm x={-161} y={-90} arm={pose.l} left bob={limbBob(0)} frame={frame} ph={0} />
-        <LimbArm x={99} y={-90} arm={pose.r} bob={limbBob(3)} frame={frame} ph={1.7} />
+        <LimbArm x={-161} y={-90} arm={pose.l} left bob={limbBob(0)} frame={frame} ph={0} outfit={outfit} />
+        <LimbArm x={99} y={-90} arm={pose.r} bob={limbBob(3)} frame={frame} ph={1.7} outfit={outfit} />
       </g>
     </svg>
   );

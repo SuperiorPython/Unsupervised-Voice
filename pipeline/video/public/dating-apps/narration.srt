@@ -1,0 +1,583 @@
+1
+00:00:00,320 --> 00:00:02,160
+Okay, everyone, hear me out.
+
+2
+00:00:02,160 --> 00:00:05,520
+I have just invented the perfect app idea.
+
+3
+00:00:05,520 --> 00:00:08,400
+Alright, so step one: find people who want a
+
+4
+00:00:08,400 --> 00:00:09,400
+relationship.
+
+5
+00:00:09,440 --> 00:00:12,800
+Step two, introduce them to other people who want
+
+6
+00:00:12,800 --> 00:00:13,960
+a relationship.
+
+7
+00:00:14,160 --> 00:00:17,760
+Step three, they meet somebody they actually like.
+
+8
+00:00:17,760 --> 00:00:20,600
+Step four, they fall in love.
+
+9
+00:00:20,690 --> 00:00:23,410
+And then finally, step five: they delete the app
+
+10
+00:00:23,410 --> 00:00:25,530
+and never come back.
+
+11
+00:00:26,770 --> 00:00:27,770
+Um,
+
+12
+00:00:28,290 --> 00:00:30,930
+we'll workshop that last part.
+
+13
+00:00:30,930 --> 00:00:33,730
+Because I just realized I may have invented a
+
+14
+00:00:33,730 --> 00:00:37,410
+business where doing your job really, really well means
+
+15
+00:00:37,410 --> 00:00:39,290
+your customers leave.
+
+16
+00:00:41,090 --> 00:00:44,050
+But jokes aside dating apps are actually a pretty
+
+17
+00:00:44,050 --> 00:00:45,170
+great idea.
+
+18
+00:00:45,170 --> 00:00:46,130
+Think about it.
+
+19
+00:00:46,130 --> 00:00:49,090
+Before dating apps, your options were pretty much limited
+
+20
+00:00:49,090 --> 00:00:51,570
+to whoever you happened to meet in your everyday
+
+21
+00:00:51,570 --> 00:00:52,370
+life.
+
+22
+00:00:52,370 --> 00:00:56,370
+Whether it be school, work, mutual friends, maybe somebody
+
+23
+00:00:56,370 --> 00:00:59,130
+you worked up the courage to approach in public.
+
+24
+00:00:59,170 --> 00:01:01,810
+And listen, that works for most people, alright?
+
+25
+00:01:01,810 --> 00:01:03,330
+But what if you're shy?
+
+26
+00:01:03,330 --> 00:01:04,290
+What if you're busy?
+
+27
+00:01:04,290 --> 00:01:06,610
+What if you already met everyone in your social
+
+28
+00:01:06,610 --> 00:01:07,610
+circle?
+
+29
+00:01:07,860 --> 00:01:08,340
+What?
+
+30
+00:01:08,340 --> 00:01:11,500
+Are you supposed to just start knocking on doors?
+
+31
+00:01:12,580 --> 00:01:15,140
+Yeah, let's not do that.
+
+32
+00:01:15,140 --> 00:01:17,940
+Dating apps give you a way to meet people
+
+33
+00:01:17,940 --> 00:01:21,380
+you probably would have never crossed paths with otherwise.
+
+34
+00:01:21,380 --> 00:01:25,300
+People with similar interests, similar goals, or just someone
+
+35
+00:01:25,300 --> 00:01:28,140
+you genuinely enjoy talking to.
+
+36
+00:01:28,370 --> 00:01:31,210
+And that's a generally good thing.
+
+37
+00:01:31,730 --> 00:01:34,650
+But the concept isn't the problem.
+
+38
+00:01:34,930 --> 00:01:38,770
+The problem is that somebody eventually has to figure
+
+39
+00:01:38,770 --> 00:01:41,250
+out how to make money off of it.
+
+40
+00:01:41,250 --> 00:01:45,370
+And that's where things start to get interesting.
+
+41
+00:01:46,290 --> 00:01:48,850
+Because you can't just build an app, release it
+
+42
+00:01:48,850 --> 00:01:51,330
+into the wild, and pay everyone in good vibes,
+
+43
+00:01:51,330 --> 00:01:52,110
+alright?
+
+44
+00:01:52,110 --> 00:01:57,150
+Developers cost money, servers cost money, moderation costs money,
+
+45
+00:01:57,150 --> 00:02:01,110
+running a full service essentially costs money.
+
+46
+00:02:01,150 --> 00:02:04,430
+And apparently romantic tension is not an accepted form
+
+47
+00:02:04,430 --> 00:02:06,670
+of payment at the electric company.
+
+48
+00:02:06,670 --> 00:02:09,390
+So businesses have to figure out how to keep
+
+49
+00:02:09,390 --> 00:02:10,350
+the lights on.
+
+50
+00:02:10,350 --> 00:02:11,150
+And you know what?
+
+51
+00:02:11,150 --> 00:02:12,460
+Fair enough, alright?
+
+52
+00:02:12,460 --> 00:02:15,180
+But then that's where the subscriptions and boosts and
+
+53
+00:02:15,180 --> 00:02:17,340
+paid visibility features come in.
+
+54
+00:02:17,340 --> 00:02:18,500
+All right.
+
+55
+00:02:18,780 --> 00:02:21,500
+So congratulations, you downloaded love.
+
+56
+00:02:21,500 --> 00:02:23,820
+But would you like to upgrade to Love Plus
+
+57
+00:02:23,820 --> 00:02:24,460
+though?
+
+58
+00:02:24,460 --> 00:02:27,300
+Because Love Plus gets you extra visibility.
+
+59
+00:02:27,420 --> 00:02:30,500
+Love Premium lets you see more information.
+
+60
+00:02:30,620 --> 00:02:32,260
+And Love Ultra.
+
+61
+00:02:32,460 --> 00:02:36,180
+Gives a complimentary emotional support PDF.
+
+62
+00:02:37,820 --> 00:02:39,260
+Okay, I made that last one up.
+
+63
+00:02:39,260 --> 00:02:42,020
+Please don't actually charge people for that one.
+
+64
+00:02:42,140 --> 00:02:44,380
+But the weird feeling is real.
+
+65
+00:02:44,380 --> 00:02:46,540
+You open up an app to meet a person
+
+66
+00:02:46,540 --> 00:02:49,820
+and suddenly you're comparing subscription tiers like you're trying
+
+67
+00:02:49,820 --> 00:02:51,620
+to buy cloud storage.
+
+68
+00:02:52,140 --> 00:02:54,620
+And look, paying for features can change what tools
+
+69
+00:02:54,620 --> 00:02:55,820
+you have available.
+
+70
+00:02:55,820 --> 00:02:59,210
+It cannot, however, make a stranger attracted to you.
+
+71
+00:02:59,210 --> 00:03:01,090
+You can buy a bigger megaphone,
+
+72
+00:03:01,370 --> 00:03:03,650
+but you can't purchase chemistry.
+
+73
+00:03:04,490 --> 00:03:06,410
+And this brings me back to our poor little
+
+74
+00:03:06,410 --> 00:03:07,770
+business plan.
+
+75
+00:03:07,770 --> 00:03:10,250
+Because what does success actually look like for a
+
+76
+00:03:10,250 --> 00:03:11,730
+dating app?
+
+77
+00:03:12,330 --> 00:03:15,690
+If someone wants a long term relationship, finds one
+
+78
+00:03:15,690 --> 00:03:17,850
+and happily deletes the app, then that's a pretty
+
+79
+00:03:17,850 --> 00:03:19,670
+good result for that person.
+
+80
+00:03:19,670 --> 00:03:23,910
+But from the perspective of recurring subscriptions, a departing
+
+81
+00:03:23,910 --> 00:03:27,070
+customer is also a decrease in profits.
+
+82
+00:03:27,670 --> 00:03:30,230
+Ladies and gentlemen, wonderful news.
+
+83
+00:03:30,230 --> 00:03:33,390
+We helped another couple find love.
+
+84
+00:03:33,670 --> 00:03:36,030
+And they deleted their accounts.
+
+85
+00:03:37,190 --> 00:03:40,820
+Now, before this becomes a conspiracy documentary, I'm not
+
+86
+00:03:40,820 --> 00:03:43,460
+saying companies have a secret warehouse full of your
+
+87
+00:03:43,460 --> 00:03:46,180
+perfect matches that they refuse to release until you
+
+88
+00:03:46,180 --> 00:03:48,540
+pay $15 or more,
+
+89
+00:03:48,740 --> 00:03:51,620
+because that would be ridiculous and also a terrible
+
+90
+00:03:51,620 --> 00:03:53,740
+way to store soulmates.
+
+91
+00:03:55,060 --> 00:03:57,780
+See now a successful couple could recommend the app
+
+92
+00:03:57,780 --> 00:03:58,900
+to friends.
+
+93
+00:03:58,900 --> 00:04:01,340
+Happy users are good publicity.
+
+94
+00:04:01,410 --> 00:04:04,130
+A company also has reasons to make its product
+
+95
+00:04:04,130 --> 00:04:05,490
+genuinely useful.
+
+96
+00:04:05,490 --> 00:04:08,530
+So I'm not arguing that the company always benefits
+
+97
+00:04:08,530 --> 00:04:09,810
+when people fail.
+
+98
+00:04:09,810 --> 00:04:12,450
+I'm just saying that the business has to measure
+
+99
+00:04:12,450 --> 00:04:15,770
+success somehow, and the easiest things to count-subscript-are
+
+100
+00:04:19,170 --> 00:04:22,450
+aren't necessarily the same as the outcome a person
+
+101
+00:04:22,450 --> 00:04:23,810
+hopes for.
+
+102
+00:04:23,810 --> 00:04:27,010
+And essentially, that's the uncomfortable little gap I have
+
+103
+00:04:27,010 --> 00:04:29,210
+to keep coming back to.
+
+104
+00:04:30,770 --> 00:04:32,530
+And here's where I have to be fair, because
+
+105
+00:04:32,530 --> 00:04:35,650
+it's not like companies invented every single difficulty with
+
+106
+00:04:35,650 --> 00:04:36,930
+modern dating.
+
+107
+00:04:36,930 --> 00:04:40,090
+They made the app, but we brought the personalities.
+
+108
+00:04:40,370 --> 00:04:42,490
+Some people have different expectations,
+
+109
+00:04:42,770 --> 00:04:45,850
+different attentions, different levels of effort.
+
+110
+00:04:45,850 --> 00:04:48,490
+Some people aren't sure of what they want, some
+
+111
+00:04:48,490 --> 00:04:51,610
+people know exactly what they want, but the requirements
+
+112
+00:04:51,610 --> 00:04:54,610
+document is 47 pages too long.
+
+113
+00:04:54,810 --> 00:04:57,210
+Sometimes you get a match and then spend three
+
+114
+00:04:57,210 --> 00:05:00,290
+business days just trying to send one message.
+
+115
+00:05:01,450 --> 00:05:03,930
+You have to type hey and then overthink the
+
+116
+00:05:03,930 --> 00:05:08,210
+punctuation until the phone became an archaeological artifact.
+
+117
+00:05:08,330 --> 00:05:10,650
+This one is essentially on us.
+
+118
+00:05:10,650 --> 00:05:12,490
+And before we even get to it, I'm not
+
+119
+00:05:12,490 --> 00:05:14,330
+even going to try to go too deep into
+
+120
+00:05:14,330 --> 00:05:17,810
+people's expectations because then I'd be trying to psychoanalyze
+
+121
+00:05:17,850 --> 00:05:21,250
+everyone in society and I'm no therapist.
+
+122
+00:05:22,250 --> 00:05:25,850
+All I'm saying is, software can introduce two people,
+
+123
+00:05:25,850 --> 00:05:28,250
+it can't do the conversation for them, it can't
+
+124
+00:05:28,250 --> 00:05:32,370
+create mutual attraction, and Heck, I can't even guarantee
+
+125
+00:05:32,370 --> 00:05:33,730
+honesty or effort.
+
+126
+00:05:33,730 --> 00:05:36,770
+A match is simply an introduction, but it's not
+
+127
+00:05:36,770 --> 00:05:38,170
+an ending.
+
+128
+00:05:39,330 --> 00:05:41,890
+I don't think dating apps are cartoon villains sitting
+
+129
+00:05:41,890 --> 00:05:44,610
+around plotting how to keep the entire planet single.
+
+130
+00:05:44,610 --> 00:05:46,530
+I also don't think that every bad date is
+
+131
+00:05:46,530 --> 00:05:48,770
+the user's fault or that paying for a premium
+
+132
+00:05:48,770 --> 00:05:50,610
+feature is somehow immoral.
+
+133
+00:05:50,610 --> 00:05:52,690
+I just think that dating apps are a genuinely
+
+134
+00:05:52,690 --> 00:05:55,650
+useful concept placed inside a business model that needs
+
+135
+00:05:55,650 --> 00:05:56,580
+revenue.
+
+136
+00:05:56,580 --> 00:05:59,700
+while being operated by people who are, and how
+
+137
+00:05:59,700 --> 00:06:02,300
+do I put this politely, people.
+
+138
+00:06:02,580 --> 00:06:05,980
+And sometimes those interests fit together beaut beautifully.
+
+139
+00:06:06,180 --> 00:06:08,460
+Sometimes they pull in different directions.
+
+140
+00:06:09,300 --> 00:06:11,780
+Because if the goal is to help somebody find
+
+141
+00:06:11,780 --> 00:06:14,820
+a person they don't want to swipe past, there's
+
+142
+00:06:14,820 --> 00:06:17,300
+something a little strange about celebrating how long they
+
+143
+00:06:17,300 --> 00:06:18,780
+b keep swiping.
+
+144
+00:06:19,930 --> 00:06:22,690
+Actually, no, I'm keeping that step.
+
+145
+00:06:23,130 --> 00:06:25,290
+I just have a feeling I'm never getting invited
+
+146
+00:06:25,290 --> 00:06:27,010
+to another investor meeting.

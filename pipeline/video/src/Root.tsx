@@ -2,6 +2,7 @@ import { Composition } from "remotion";
 import { FPS, OUTRO_FRAMES } from "./clips";
 import { Outro } from "./Outro";
 import { AstronautCompositions } from "./avatar/Astronaut";
+import { DatingAppsCompositions } from "./episodes/dating-apps/compositions";
 
 // 1080p, 30 fps. Episodes get registered here as they are built.
 export const RemotionRoot: React.FC = () => {
@@ -17,6 +18,7 @@ export const RemotionRoot: React.FC = () => {
         width={1920}
         height={1080}
       />
+      <DatingAppsCompositions />
       <AstronautCompositions />
     </>
   );
