@@ -19,4 +19,4 @@ The table below is edited by hand. To add a video, copy the row from `templates/
 
 | # | Idea | Script generated | Voiceover | Animation | Released | Links |
 |---|---|---|---|---|---|---|
-| 001 | [Group projects](videos/01-group-projects.md) | yes | yes | yes | yes |  |
+| 001 | [Group projects](videos/01-group-projects.md) | yes | yes | yes | yes | https://youtu.be/0H_fXGvvmtc?si=Sf7e47pZJHDAF-Qd |
