@@ -4,17 +4,19 @@ Animated commentary: Bryson riffs on a topic he cares about, and a red-and-black
 
 ## How this README is used
 
-The table below is generated from `video-ideas.xlsx`. Don't edit between the markers; edits there are overwritten.
+The table below is edited by hand. To add a video, copy the row from `templates/readme-row.md` (or from the comment right above the table), paste it directly under the header row, and change `no` to `yes` as each step is finished. Put the YouTube link in the last column once the video is live; the weekly channel report reads it.
 
-- **Add an idea:** [New issue, then "Video idea"](https://github.com/SuperiorPython/Unsupervised-Voice/issues/new/choose) is a form with dropdowns. Submitting it adds the row, refreshes this table and closes the issue.
-- **Change a row** (status, take, anything else): edit `video-ideas.xlsx` in Excel, then commit and push. The table refreshes by itself.
-- **Status:** riff pending, riff recorded, scripting, recording, animating, rendered, published, parked
-- **Script:** not started, outlined, drafted, final
-- **Priority:** 1 (next) to 3 (someday)
-- Keep the take in your own words, copied from your riff transcript.
-- Put long notes in the video's own file in `videos/`, named `NN-title.md` where NN is the id (for example `01-group-projects.md`). The title in the table links to it automatically.
+- **Script generated:** the talking points for the video are filled in (`templates/talking-points.md`, saved as `videos/NN-title.md`).
+- **Voiceover:** the final voice recording is done.
+- **Animation:** the video is rendered.
+- **Released:** it is public on YouTube.
 
-## Video ideas
+## Videos
 
-<!-- IDEAS:START -->
-<!-- IDEAS:END -->
+<!-- ROW TEMPLATE: copy the line below and paste it directly under the header row (newest on top).
+| 002 | [Idea title](videos/02-short-name.md) | no | no | no | no |  |
+-->
+
+| # | Idea | Script generated | Voiceover | Animation | Released | Links |
+|---|---|---|---|---|---|---|
+| 001 | [Group projects](videos/01-group-projects.md) | yes | yes | yes | yes |  |

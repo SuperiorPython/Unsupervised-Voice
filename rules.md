@@ -56,6 +56,8 @@ Two videos of data can't judge a format, and a 60-second video can't test 8-minu
 
 ## 8. Video ideas tracker (`video-ideas.xlsx`)
 
+**Update 2026-11-20:** the README no longer builds its table from this file. The README table is edited by hand (see `templates/readme-row.md`) and tracks videos in production. `video-ideas.xlsx` and the issue form below still work as a plain idea backlog, and videos are drafted from `templates/talking-points.md` instead of a written-out script.
+
 An Excel file, not a CSV, because a CSV can't hold dropdowns. Add ideas by typing in the next empty row; the id fills in by itself and the dropdowns are pre-set down to row 300. Options for each dropdown live on the `Lists` sheet. Don't insert or delete columns.
 
 - `status`: riff pending, riff recorded, scripting, recording, animating, rendered, published, parked.

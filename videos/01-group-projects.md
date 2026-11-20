@@ -1,310 +1,144 @@
 # Unsupervised Voice — Group Projects
 
-**Draft:** v5 — teamwork sales-pitch opening + adult accountability (editable)  
-**Working title:** *There's No Accountability in Team*  
-**Estimated narration:** ~5–6 minutes, depending on delivery  
-**Voice:** Your real voice. Energetic, expressive, occasionally incredulous. Cues in `[brackets]` are direction only; do not read them aloud.  
-**Note:** The freshman-year Python story is based on your account. The teammate archetypes and workplace scenarios are comedic illustrations, not additional personal experiences. Change anything you wouldn't naturally say.
+**Draft:** v7 — tightened, fact-checked against your clarifications  
+**Working title:** *Group Projects Sound Great. Until You Get a Group.*  
+**Delivery:** Energetic and animated, with natural shifts in tone—not constant shouting.  
+**Note:** Bracketed directions are **not spoken**. Bold type indicates possible emphasis, not mandatory volume.
 
 ---
 
-## 1. Cold Open — The Teamwork Sales Pitch
+## 1. The Sales Pitch
 
-[Cheerful, enthusiastic — like you're advertising something]
+[Cheerful, overly enthusiastic—like you're selling an amazing invention]
 
 You know what's one of the greatest inventions in human history?
 
-No, not the internet. Not electricity. Not even air conditioning.
+Not electricity. Not the internet. Not even air conditioning.
 
-[Overly enthusiastic]
+[Big reveal]
 
-**TEAMWORK!**
+**Teamwork!**
 
-That's right! Why do something yourself when you can get THREE other people involved? Four minds, four different perspectives, four times the productivity!
+Why do something yourself when you can get three other people involved? Four minds! Four perspectives! Four times the productivity!
 
-[Pause — enthusiasm starts fading]
+[Pause; excitement drains away]
 
 ...In theory.
 
-[Conversational, slightly sarcastic]
+Because that's also four different schedules, four different priorities, and four completely different interpretations of the word *deadline*.
 
-Because apparently, nobody bothered to mention that those four minds also come with four different schedules, four different priorities, and four VERY different definitions of the word "deadline."
+And you hear it everywhere: “Teamwork makes the dream work.” “There's no I in team.” Everything is better together.
 
-[Building frustration]
+[Conversational]
 
-And that's before you find out that one of those minds hasn't responded to a message in two weeks.
-
-[Brief pause — deadpan]
-
-Wonderful.
-
-[Transition into the main argument, increasingly animated]
-
-But seriously, everywhere you go, people LOVE talking about teamwork.
-
-"Teamwork makes the dream work!"
-
-"There's no I in team!"
-
-"Everything's better when you work together!"
-
-And listen, I GET IT.
-
-But here's the problem...
-
-[Drop the smile; blunt disbelief]
-
-**That requires a GOOD TEAM.**
-
-Somehow, nine times out of ten, somebody says "group project," and you end up with people you wouldn't even willingly share an elevator with.
-
-[Getting carried away with the image]
-
-They say we're all in the same boat. Okay, then why am I rowing, somebody's asleep, and the third person is asking where we're going?!
-
-## 2. I Don't Hate Teamwork
-
-[Settle down; sincere but still conversational]
-
-Now, to be fair, I'm an independent worker. I like knowing exactly what I need to do, getting it done, and knowing the result is on me.
-
-And I get that everybody's different. Different goals, different drive, different schedules—I've got about ten more examples if you need them.
-
-[Casual emphasis]
-
-I don't need everybody to work the same way I do. I don't even need everybody to LIKE the assignment.
-
-I just need one thing: **if we're being judged together, we need to actually work together.**
-
-Because the part that tests my patience isn't always doing the work.
-
-[Lower voice; deliberate]
-
-It's what happens when the results come back.
-
-## 3. Freshman Year: The Vanishing Teammate
-
-[Conversational; tell this like you're talking to a friend]
-
-And I actually DO have a group project that explains why I feel this way.
-
-Freshman year of college. Intro to Python. Our FINAL project was to recreate a game in Python, and they put us in a group of three.
-
-There was me, my friend... and some random dude.
-
-[Confident, joking—not bragging too hard]
-
-Now, at that point, Python? I was GOOD at Python. Like, that was my territory.
-
-My friend struggled with it. And you know what? Fine! He was my friend, it was a freshman-level class, and most importantly, he was still there. I can work with somebody who's trying.
-
-[Slow shift to annoyed]
-
-But the third guy?
+Sure. With a **good** team, I agree.
 
 [Beat]
 
+The problem is getting one.
+
+## 2. Three People, One Final Project
+
+[Honest, conversational]
+
+Look, I have a preference for independent work. I like knowing what I'm responsible for and getting it done. I don't expect everyone to work like me, though. People have different strengths and different priorities.
+
+But I do expect people to at least **show up**.
+
+And freshman year of college gave me a pretty good example of why.
+
+Our Intro to Python final was a group project: recreate a game in Python. Three of us—me, my friend, and some random dude.
+
+[Playfully confident]
+
+I was **goated** at Python. I'm not gonna pretend otherwise.
+
+My friend struggled with it. And that's fine. It was an intro class. He was my friend, and I could understand somebody needing help with the material.
+
+The random dude?
+
+[Flat; let the silence do the work]
+
 **Gone.**
 
-Not even halfway through the FINAL PROJECT, he just... disappeared.
+About a quarter of the way into the *final project*, he just disappeared.
 
-[Animated disbelief]
+[Incredulous]
 
-And that's what got me! This isn't some little worksheet you can forget about and make up later. This is the FINAL. The last big thing we have to turn in. How are you already missing in action?!
+A quarter! We barely got started! This wasn't some practice worksheet we could shrug off. This was the final project, and one-third of the group had already vanished.
 
-[Pause; calm, matter-of-fact]
+[Relieved, dryly amused]
 
-Luckily, we had documentation of what happened. We showed the professor, and the professor made sure that guy wasn't included in our resulting grade.
+Thankfully, I kept documentation—an actual investigation folder's worth of receipts. The professor considered what happened and removed him from our resulting grade.
 
-[Relieved, then dry]
+So, credit to the professor. That was fair. My friend and I weren't stuck carrying the consequences of someone else's disappearance.
 
-So, credit where it's due: the professor handled it fairly. My friend and I didn't have to carry the consequences of somebody vanishing.
+And I never saw that dude again. Didn't even bother remembering his name.
 
-And the random guy? Never had to deal with him again.
+[Small pause]
 
-[Small pause; amused]
+Honestly? Best part of the project.
 
-Beautiful ending. Would not recommend the journey.
+## 3. The Part That Shouldn't Take an Investigation
 
-And THAT is the distinction I keep coming back to: **struggling with the work is not the same as abandoning the work.**
+[Thoughtful at first]
 
-## 4. One Result, Four Different Efforts
+Here's what bugs me about **shared blame**: struggling with the work and refusing to do the work aren't the same thing.
 
-[Relaxed, relieved]
+My friend struggled. I could work with that. The other guy stopped showing up. Those are two completely different situations.
 
-If the project goes well? Great! Everybody gets their grade, we close the shared document, and nobody ever has to mention the words “group presentation” again.
+[More direct]
 
-[Quick celebration]
+And as an adult, I'm not about to automatically pick up somebody else's slack because they couldn't make the effort to do their own part. I'll help somebody who's trying. I'm not volunteering to become their replacement.
 
-Congratulations. You survived.
+My professor actually handled our situation the right way. We had the documentation, the professor listened, and the outcome reflected what happened.
 
-[Sudden shift]
+[Dry disbelief]
 
-But if it goes BAD?
+But that shouldn't feel like **winning the lottery**.
 
-Now, for some reason, we're ALL getting the same speech.
+I shouldn't need an entire investigation folder just for someone to recognize that being assigned to the same group doesn't mean everybody put in the same work.
 
-“You guys should have planned better.”
+## 4. And Apparently, This Is Practice for Adulthood
 
-“You guys should have communicated.”
+[Mock optimism]
 
-“You guys need to take responsibility.”
+And the best part? We're told group projects prepare us for the workplace.
 
-[Incredulous; speed up]
-
-**WE?!**
-
-Because I'm trying to understand why the section I turned in three days early is being judged like the section somebody remembered existed TWENTY MINUTES AGO.
-
-[Beat, quieter]
-
-And listen, feedback is fine. If I messed something up, tell me. I'll own that.
-
-[More firm; build from conversational to heated]
-
-But I'm an ADULT now. I'm not about to spend my time picking up the slack because somebody else couldn't make the effort to handle THEIR responsibilities.
-
-[Quick distinction; sincere]
-
-If somebody's struggling and actually trying? I'll help. I've done that. No problem.
-
-[Sharper; incredulous]
-
-But if you're just not doing anything, why does that suddenly become MY second assignment? I signed up to do my part, not audition to be everybody else's emergency replacement!
-
-[Emphasize distinction]
-
-But don't tell me *everybody* failed to communicate when three people asked for an update and one person apparently changed their identity and moved to another country.
-
-## 5. Meet the Team
-
-[Reset; playful game-show host]
-
-And of course, that disappearing teammate is just ONE of the characters you might meet.
-
-First up: **The Ghost.**
-
-Joins the group chat, says “hey,” and that's the last confirmed sighting. Eventually, you're not even waiting for their work. You're waiting for proof they're alive.
-
-Next: **The CEO.**
-
-[Mock authoritative tone]
-
-“All right, everybody, here's what we're gonna do.”
-
-[Normal voice, dry]
-
-Fantastic speech. Inspiring leadership. Now, are YOU planning to do anything, or was delegating the whole contribution?
-
-Then you've got **The Last-Minute Specialist.**
-
-[Too cheerful; imitation]
-
-“Heyyy, sorry, just seeing this! What do you need me to do?”
-
-[Silent beat; deadpan]
-
-We present in forty minutes.
-
-And sometimes—sometimes—you get **The Actual Teammate.**
-
-[Delighted, almost emotional]
-
-They respond. They do their part. They check in BEFORE the deadline.
-
-[Hushed suspicion]
-
-...Who are you? And can we please be in the same group forever?
-
-## 6. The Two Choices
-
-[Return to the point; animated but controlled]
-
-And THIS is what I'm talking about. Our professor actually separated the contributions when it mattered. But you can't count on every situation working out like that. I can live with people having different work styles. What I can't stand is pretending the workload—and the blame—was divided equally when it clearly wasn't.
-
-So when the grade comes back and everybody gets blamed, you've got two choices.
-
-[Polite, defeated]
-
-Option one: sit there. Nod along. Accept your portion of a disaster you didn't personally create.
-
-[Energy spikes; delighted outrage]
-
-Option two: **politely crash out.**
-
-[Perfect customer-service voice, very measured]
-
-“Respectfully, I completed my assigned section on time. I followed up with the group on multiple occasions. And if it would be helpful, I can provide the messages, timestamps, and document history.”
-
-[Pause; smug]
-
-Because YES. I have receipts.
-
-[Quick, softer aside]
-
-Now, I'm not saying you should throw everybody under the bus for one mistake. Stuff happens. People have lives. My friend struggled on that Python project, and I understood that.
-
-[Building again]
-
-I'm saying there is a difference between somebody who TRIED and somebody who didn't even open the document.
-
-## 7. It Follows You Into Adulthood
-
-[Bright, mock optimism]
-
-But don't worry! Everybody says this is preparing us for the workplace.
-
-Apparently, once you graduate, the magical power of a salary makes everybody communicate, follow deadlines, and take accountability.
+So I guess once everyone's an adult and getting paid, nobody ghosts the team, everybody meets deadlines, and communication is flawless.
 
 [Pause; skeptical]
 
 ...Right?
 
-[Ominous, imagining the future rather than claiming experience]
+[Grounded, wry]
 
-I'm not at the full-time chapter yet, and I already have questions. I've got no problem being part of a team—but I've got even less interest in being the team's unpaid rescue department.
+I'm not claiming to know how every workplace operates. I'm just hoping the adult version has a little more accountability—and a lot fewer missing persons reports.
 
-Because if group projects are the PRACTICE round, what exactly happens when the project has a budget? A manager? A six-month deadline? And the person who didn't answer your messages now has a job title that sounds like three jobs put together?
+[Callback; cheerful sales-pitch voice returns, then turns dry]
 
-[Dry punchline]
+So yes: teamwork! Four minds, four perspectives, four times the productivity!
 
-I feel like the only difference is that instead of a group chat, you get a meeting about why nobody checked the group chat.
+[Beat]
 
-## 8. Closing
-
-[Warm, honest, still lively]
-
-Look, I'm not against teamwork. The right people can make something difficult a whole lot easier. And when everybody contributes, it's genuinely great.
-
-I just think if we're all going to share the credit, we should have an honest conversation about how we share the responsibility too.
-
-[Pause; bring back the opening line]
-
-There's no *I* in team.
-
-[Dry final emphasis]
-
-But sometimes there is absolutely no **accountability** either.
-
-[Playful, inviting]
-
-Anyway, tell me which group-project character you keep running into. And if you're The Ghost—please. At least tell your group you've left the planet.
+Just make sure all four minds actually clock in.
 
 ---
 
-## Recording notes — not spoken
+## Recording and animation notes (not spoken)
 
-- The freshman-year story is real; do not imply the professor blamed your group or that you received a bad grade. The professor separated the absent student from your grade.
-- Perform the opening as an exaggerated, cheerful sales pitch, then let the enthusiasm collapse into disbelief on "...In theory." Avoid nonstop shouting.
-- Give **“WE?!”**, **“politely crash out”**, and **“Because YES. I have receipts.”** extra space.
-- Shift into an unnaturally calm, polite voice for the receipts speech; let the contrast carry the joke.
-- The workplace passage is explicitly imagined/anticipated, not presented as years of personal office experience.
-- “Nine times out of ten” is hyperbole, not a statistical claim; avoid showing it as measured data.
-- Leave space for visual reaction shots: a stare, facepalm, crossed arms, or the robot silently producing receipts.
-- Test-read aloud and cut anything that sounds like someone else's joke rather than your own phrasing.
+- Open with a bright sales-pitch performance, then let “...In theory” deflate naturally.
+- The personal story is the centerpiece: confident → understanding → flat “Gone.” → disbelief → relief.
+- “About a quarter” replaces the inaccurate “not even halfway.” No invented details about the game, teammate messages, or grading process.
+- The documentation folder is real per your clarification; the script uses the phrase playfully, not as a fabricated incident.
+- The shared-blame argument is clearly framed as your opinion, **not** an unfair grade you personally received.
+- The workplace sequence is hopeful/skeptical speculation, not a claim of extensive professional experience.
+- For the 60-second Remotion proof of concept, record the personal-story section and cut its strongest minute. The full video is a separate project.
 
-## Editorial changes from v4
+## Revision log — v6 → v7
 
-- Replaces the crime-scene cold open with an exaggerated teamwork sales pitch that flows directly into the main argument.
-- Preserves the stronger adult-accountability section in Part 4 and the true freshman-year Python group-project story.
-- Keeps the "documentation / receipts" material in its natural place later in the story rather than revealing it in the opening.
+- Merged the repetitive discussion of effort, ability, and accountability.
+- Made the fair outcome—and the fact that it shouldn't feel like winning the lottery—the central observation.
+- Kept the teamwork sales pitch but gave the ending a more playful callback.
+- Updated confirmed facts: preference for independent work; disappearance about one-quarter into the project; documentation/investigation folder existed; professor removed the absent student from the resulting grade; never saw him again or remembered his name.
+- Preserved “goated” and bracketed performance cues without excessive shouting.
